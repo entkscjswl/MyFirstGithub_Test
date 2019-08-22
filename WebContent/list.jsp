@@ -8,7 +8,7 @@
 </head>
 <body>
 
-	<h3>게시판 목록 조회</h3>
+	<h3>게시판 목록 조회ㅋㅋ</h3>
 	<table border="1">
 		<tr>
 			<td colspan ="7" align="right"><a href="boardWriteForm.bbs">[새글쓰기]</a></td>
@@ -35,10 +35,10 @@
 		    <td>${aaa.writeDate}</td>
 		    <td>${aaa.writeTime}</td>
 		    <td>${aaa.readCnt}</td>
-		    <td>${aaa.childCnt}</td>  
+		    <td>${aaa.childCnt}</td>
 	 	 </tr>
 		</c:forEach>
-		
+
 		<tr>
 			<td colspan="7">
 			<a href="list.bbs">[첫 페이지로]</a>
@@ -47,7 +47,7 @@
 				</c:forEach>
 			</td>
 		</tr>
-		
+
 		<tr>
 			<td colspan="7" align="center">
 				<form action="boardSearch.bbs" method="post">
@@ -65,20 +65,3 @@
 	</table>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
